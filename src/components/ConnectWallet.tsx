@@ -1,6 +1,8 @@
 
 import { useConnect } from '@starknet-react/core';
 
+import { Connector } from "starknetkit";
+
 export function ConnectWallet({ onConnect }: { onConnect?: () => void }) {
   const { connect, connectors } = useConnect();
 
