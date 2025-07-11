@@ -21,7 +21,7 @@ export function ConnectWallet({ onConnect }: { onConnect?: () => void }) {
           <button
             key={connector.id}
             onClick={() => connect({ connector })}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg transition-colors"
+            className="bg-green-900/90 hover:bg-green-800 text-white font-medium py-3 px-6 rounded-lg transition-colors"
           >
             Connect {connector.id}
           </button>

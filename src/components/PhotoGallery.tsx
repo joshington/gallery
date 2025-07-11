@@ -41,8 +41,10 @@ export function PhotoGallery() {
       
       <label
         htmlFor="photo-upload"
-        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg cursor-pointer text-center transition-colors"
+        className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-4 py-2 rounded-lg cursor-pointer text-center shadow-lg hover:shadow-emerald-500/20 transition-all mb-8"
+        
       >
+      
         Select 9 Photos
       </label>
 
