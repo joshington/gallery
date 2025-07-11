@@ -10,18 +10,18 @@ export function UserDashboard() {
     <div className="flex flex-col space-y-6 w-full max-w-[1200px] mx-auto p-4">
       <h2 className="text-2xl font-bold">Your Gallery Dashboard</h2>
       
-      <div className="w-full p-4 border border-gray-200 rounded-lg">
+      <div className="w-full p-4 shadow-sm shadow-green-300 rounded-lg">
         <h3 className="text-xl font-semibold">Your Wallet</h3>
         <p className="text-white break-all">
           {address ? address : 'Not connected (Demo Mode)'}
         </p>
       </div>
 
-      <div className="w-full p-4 border border-gray-200 rounded-lg">
+      <div className="w-full p-4 shadow-sm shadow-green-300 rounded-lg">
         <h3 className="text-xl font-semibold">Your NFTs</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
           {mockNFTs.map((nft) => (
-            <div key={nft.id} className="p-4 border border-gray-200 rounded-lg">
+            <div key={nft.id} className="p-4 shadow-sm shadow-green-300 rounded-lg">
               <img 
                 src={nft.imageUrl} 
                 alt={nft.name}
@@ -33,7 +33,7 @@ export function UserDashboard() {
         </div>
       </div>
 
-      <div className="w-full p-4 border border-gray-200 rounded-lg">
+      <div className="w-full p-4 shadow-sm shadow-green-300 rounded-lg">
         <h3 className="text-xl font-semibold">STRK Rewards</h3>
         <p className="mt-2">Current NFTs: {mockUserData.nftCount} / 5</p>
         <p className="mt-2">STRK Balance: {mockUserData.strkBalance}</p>
