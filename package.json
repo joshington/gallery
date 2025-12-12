@@ -14,7 +14,7 @@
     "@starknet-react/core": "^3.7.4",
     "framer-motion": "^12.19.1",
     "get-starknet-core": "^3.3.5",
-    "next": "15.3.4",
+    "next": "15.4.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.5.2",
